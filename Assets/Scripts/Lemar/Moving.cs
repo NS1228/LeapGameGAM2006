@@ -6,11 +6,20 @@ public class Moving : MonoBehaviour
 {
     public GameObject ball;
     public Cup[] cups;
+    public GameObject Cupbox1;
+    public GameObject Cupbox2;
+    public GameObject Cupbox3;
+    public GameObject Cup1;
+    public GameObject Cup2;
+    public GameObject Cup3;
 
     // Use this for initialization
     void Start()
     {
         StartCoroutine(ShuffleRoutine());
+        Cupbox1.SetActive(false);
+        Cupbox2.SetActive(false);
+        Cupbox3.SetActive(false);
     }
 
     // Update is called once per frame
@@ -61,5 +70,13 @@ public class Moving : MonoBehaviour
             yield return new WaitForSeconds(1f);
 
         }
+        yield return new WaitForSeconds(2f);
+
+        Cupbox1.SetActive(true);
+        Cupbox2.SetActive(true);
+        Cupbox3.SetActive(true);
+        GameObject.Find("Cup").GetComponent<Cup>().enabled = false;
+        GameObject.Find("Cup2").GetComponent<Cup>().enabled = false;
+        GameObject.Find("Cup3").GetComponent<Cup>().enabled = false;
     }
 }
