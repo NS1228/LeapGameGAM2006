@@ -9,8 +9,9 @@ public class Dance_Sets : MonoBehaviour
     public static int ROUNDS;
 
     public GameObject buttons;
+    public GameObject bears;
 
- 
+
 
     private Animation anim;
 
@@ -38,8 +39,11 @@ public class Dance_Sets : MonoBehaviour
             {
                 print("VICTORY... NEXT LEVEL");
                 ROUNDS++;
+               Bear_anims.animswitch = true;
+                buttons.SetActive(false);
                 SETS = 1;
                 Debug.Log(ROUNDS);
+                
             }
         }
 
@@ -52,6 +56,8 @@ public class Dance_Sets : MonoBehaviour
                 ROUNDS++;
                 SETS = 1;
                 Debug.Log(ROUNDS);
+               Bear_anims.animswitch = true;
+                buttons.SetActive(false);
             }
         }
         if (ROUNDS == 3)
