@@ -6,17 +6,28 @@ using UnityEngine.SceneManagement;
 public class Button_Test : MonoBehaviour
 {
 
+    public GameObject ccorect;
+    public GameObject ffalse;
 
+    public bool textfade;
+    public bool textpasser;
+    public float fadetimer = 0;
+    public float fadetimerfalse = 0;
     // Start is called before the first frame update
     void Start()
     {
-
+        textfade = false;
+        textpasser = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        Fadeaway();
+        Textsender();
+      
+        
+       
     }
     public void Ballone()
     {
@@ -27,12 +38,18 @@ public class Button_Test : MonoBehaviour
                 print("CORRECT");
                 Dance_Sets.SETS++;
                 Debug.Log(Dance_Sets.SETS);
+                ccorect.SetActive(true);
+                fadetimer = Time.time + 1;
+                textpasser = true;
+
             }
             else
             {
-
+ 
                 Debug.Log("WRONG");
                 SceneManager.LoadScene("Dancegame");
+
+
             }
         }
 
@@ -43,12 +60,15 @@ public class Button_Test : MonoBehaviour
                 print("CORRECT");
                 Dance_Sets.SETS++;
                 Debug.Log(Dance_Sets.SETS);
+                ccorect.SetActive(true);
+                fadetimer = Time.time + 1;
+                textpasser = true;
             }
             else
             {
-
                 Debug.Log("WRONG");
                 SceneManager.LoadScene("Dancegame");
+
             }
         }
 
@@ -59,10 +79,12 @@ public class Button_Test : MonoBehaviour
                 print("CORRECT");
                 Dance_Sets.SETS++;
                 Debug.Log(Dance_Sets.SETS);
+                ccorect.SetActive(true);
+                fadetimer = Time.time + 1;
+                textpasser = true;
             }
             else
             {
-
                 Debug.Log("WRONG");
                 SceneManager.LoadScene("Dancegame");
             }
@@ -78,6 +100,9 @@ public class Button_Test : MonoBehaviour
                 print("CORRECT");
                 Dance_Sets.SETS++;
                 Debug.Log(Dance_Sets.SETS);
+                ccorect.SetActive(true);
+                fadetimer = Time.time + 1;
+                textpasser = true;
             }
             else
             {
@@ -93,6 +118,9 @@ public class Button_Test : MonoBehaviour
                 print("CORRECT");
                 Dance_Sets.SETS++;
                 Debug.Log(Dance_Sets.SETS);
+                ccorect.SetActive(true);
+                fadetimer = Time.time + 1;
+                textpasser = true;
             }
             else
             {
@@ -110,6 +138,9 @@ public class Button_Test : MonoBehaviour
                 print("CORRECT");
                 Dance_Sets.SETS++;
                 Debug.Log(Dance_Sets.SETS);
+                ccorect.SetActive(true);
+                fadetimer = Time.time + 1;
+                textpasser = true;
             }
             else
             {
@@ -129,6 +160,9 @@ public class Button_Test : MonoBehaviour
                 print("CORRECT");
                 Dance_Sets.SETS++;
                 Debug.Log(Dance_Sets.SETS);
+                ccorect.SetActive(true);
+                fadetimer = Time.time + 1;
+                textpasser = true;
             }
             else
             {
@@ -144,6 +178,9 @@ public class Button_Test : MonoBehaviour
                 print("CORRECT");
                 Dance_Sets.SETS++;
                 Debug.Log(Dance_Sets.SETS);
+                ccorect.SetActive(true);
+                fadetimer = Time.time + 1;
+                textpasser = true;
             }
             else
             {
@@ -160,6 +197,9 @@ public class Button_Test : MonoBehaviour
                 print("CORRECT");
                 Dance_Sets.SETS++;
                 Debug.Log(Dance_Sets.SETS);
+                ccorect.SetActive(true);
+                fadetimer = Time.time + 1;
+                textpasser = true;
             }
             else
             {
@@ -179,6 +219,9 @@ public class Button_Test : MonoBehaviour
                 print("CORRECT");
                 Dance_Sets.SETS++;
                 Debug.Log(Dance_Sets.SETS);
+                ccorect.SetActive(true);
+                fadetimer = Time.time + 1;
+                textpasser = true;
             }
             else
             {
@@ -194,6 +237,9 @@ public class Button_Test : MonoBehaviour
                 print("CORRECT");
                 Dance_Sets.SETS++;
                 Debug.Log(Dance_Sets.SETS);
+                ccorect.SetActive(true);
+                fadetimer = Time.time + 1;
+                textpasser = true;
             }
             else
             {
@@ -210,6 +256,9 @@ public class Button_Test : MonoBehaviour
                 print("CORRECT");
                 Dance_Sets.SETS++;
                 Debug.Log(Dance_Sets.SETS);
+                ccorect.SetActive(true);
+                fadetimer = Time.time + 1;
+                textpasser = true;
             }
             else
             {
@@ -218,5 +267,24 @@ public class Button_Test : MonoBehaviour
                 SceneManager.LoadScene("Dancegame");
             }
         }
+    }
+
+    public void Textsender()
+    {
+        if(textpasser == true)
+        {
+            textfade = true;
+            textpasser = false;
+        }
+    }
+
+    public void Fadeaway ()
+    {
+        if(textfade == true && Time.time >= fadetimer)
+        {
+            ccorect.SetActive(false);
+            textfade = false;
+        }
+        
     }
 }
