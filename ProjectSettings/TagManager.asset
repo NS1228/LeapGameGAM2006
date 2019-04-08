@@ -9,6 +9,7 @@ TagManager:
   - Cup
   - Ball
   - End
+  - Floor
   layers:
   - Default
   - TransparentFX
