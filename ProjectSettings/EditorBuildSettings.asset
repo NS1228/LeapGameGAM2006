@@ -12,6 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Dancegame.unity
     guid: f6779b563a0770c4189c14513fd331cd
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Cupnball.unity
     guid: 4ec5c83b0f744614fa1e6b4142d0619c
+=======
+    path: Assets/Scenes/Dancegameretryscene.unity
+    guid: b827e06fdcac4fe42905a8e5c6cd08b9
+>>>>>>> master
   m_configObjects: {}

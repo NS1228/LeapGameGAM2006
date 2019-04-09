@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class Button_Test : MonoBehaviour
 {
 
+    public AudioClip ccorextsfx;
+    AudioSource audioSource;
+
     public GameObject ccorect;
     public GameObject ffalse;
 
@@ -18,6 +21,8 @@ public class Button_Test : MonoBehaviour
     {
         textfade = false;
         textpasser = false;
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -41,13 +46,14 @@ public class Button_Test : MonoBehaviour
                 ccorect.SetActive(true);
                 fadetimer = Time.time + 1;
                 textpasser = true;
+                audioSource.PlayOneShot(ccorextsfx, 0.7F);
 
             }
             else
             {
  
                 Debug.Log("WRONG");
-                SceneManager.LoadScene("Dancegame");
+                SceneManager.LoadScene("Dancegameretryscene");
 
 
             }
@@ -63,11 +69,12 @@ public class Button_Test : MonoBehaviour
                 ccorect.SetActive(true);
                 fadetimer = Time.time + 1;
                 textpasser = true;
+                audioSource.PlayOneShot(ccorextsfx, 0.7F);
             }
             else
             {
                 Debug.Log("WRONG");
-                SceneManager.LoadScene("Dancegame");
+                SceneManager.LoadScene("Dancegameretryscene");
 
             }
         }
@@ -82,11 +89,12 @@ public class Button_Test : MonoBehaviour
                 ccorect.SetActive(true);
                 fadetimer = Time.time + 1;
                 textpasser = true;
+                audioSource.PlayOneShot(ccorextsfx, 0.7F);
             }
             else
             {
                 Debug.Log("WRONG");
-                SceneManager.LoadScene("Dancegame");
+                SceneManager.LoadScene("Dancegameretryscene");
             }
         }
     }
@@ -103,11 +111,12 @@ public class Button_Test : MonoBehaviour
                 ccorect.SetActive(true);
                 fadetimer = Time.time + 1;
                 textpasser = true;
+                audioSource.PlayOneShot(ccorextsfx, 0.7F);
             }
             else
             {
                 Debug.Log("WRONG");
-                SceneManager.LoadScene("Dancegame");
+                SceneManager.LoadScene("Dancegameretryscene");
             }
         }
 
@@ -121,12 +130,13 @@ public class Button_Test : MonoBehaviour
                 ccorect.SetActive(true);
                 fadetimer = Time.time + 1;
                 textpasser = true;
+                audioSource.PlayOneShot(ccorextsfx, 0.7F);
             }
             else
             {
 
                 Debug.Log("WRONG");
-                SceneManager.LoadScene("Dancegame");
+                SceneManager.LoadScene("Dancegameretryscene");
             }
         }
 
@@ -141,12 +151,13 @@ public class Button_Test : MonoBehaviour
                 ccorect.SetActive(true);
                 fadetimer = Time.time + 1;
                 textpasser = true;
+                audioSource.PlayOneShot(ccorextsfx, 0.7F);
             }
             else
             {
 
                 Debug.Log("WRONG");
-                SceneManager.LoadScene("Dancegame");
+                SceneManager.LoadScene("Dancegameretryscene");
             }
         }
     }
@@ -163,11 +174,12 @@ public class Button_Test : MonoBehaviour
                 ccorect.SetActive(true);
                 fadetimer = Time.time + 1;
                 textpasser = true;
+                audioSource.PlayOneShot(ccorextsfx, 0.7F);
             }
             else
             {
                 Debug.Log("WRONG");
-                SceneManager.LoadScene("Dancegame");
+                SceneManager.LoadScene("Dancegameretryscene");
             }
         }
 
@@ -181,12 +193,13 @@ public class Button_Test : MonoBehaviour
                 ccorect.SetActive(true);
                 fadetimer = Time.time + 1;
                 textpasser = true;
+                audioSource.PlayOneShot(ccorextsfx, 0.7F);
             }
             else
             {
 
                 Debug.Log("WRONG");
-                SceneManager.LoadScene("Dancegame");
+                SceneManager.LoadScene("Dancegameretryscene");
             }
         }
 
@@ -200,12 +213,13 @@ public class Button_Test : MonoBehaviour
                 ccorect.SetActive(true);
                 fadetimer = Time.time + 1;
                 textpasser = true;
+                audioSource.PlayOneShot(ccorextsfx, 0.7F);
             }
             else
             {
 
                 Debug.Log("WRONG");
-                SceneManager.LoadScene("Dancegame");
+                SceneManager.LoadScene("Dancegameretryscene");
             }
         }
     }
@@ -222,11 +236,12 @@ public class Button_Test : MonoBehaviour
                 ccorect.SetActive(true);
                 fadetimer = Time.time + 1;
                 textpasser = true;
+                audioSource.PlayOneShot(ccorextsfx, 0.7F);
             }
             else
             {
                 Debug.Log("WRONG");
-                SceneManager.LoadScene("Dancegame");
+                SceneManager.LoadScene("Dancegameretryscene");
             }
         }
 
@@ -240,12 +255,13 @@ public class Button_Test : MonoBehaviour
                 ccorect.SetActive(true);
                 fadetimer = Time.time + 1;
                 textpasser = true;
+                audioSource.PlayOneShot(ccorextsfx, 0.7F);
             }
             else
             {
 
                 Debug.Log("WRONG");
-                SceneManager.LoadScene("Dancegame");
+                SceneManager.LoadScene("Dancegameretryscene");
             }
         }
 
@@ -259,12 +275,13 @@ public class Button_Test : MonoBehaviour
                 ccorect.SetActive(true);
                 fadetimer = Time.time + 1;
                 textpasser = true;
+                audioSource.PlayOneShot(ccorextsfx, 0.7F);
             }
             else
             {
 
                 Debug.Log("WRONG");
-                SceneManager.LoadScene("Dancegame");
+                SceneManager.LoadScene("Dancegameretryscene");
             }
         }
     }
