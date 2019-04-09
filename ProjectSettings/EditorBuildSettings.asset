@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dancegame.unity
     guid: f6779b563a0770c4189c14513fd331cd
+  - enabled: 1
+    path: Assets/Scenes/Cupnball.unity
+    guid: 4ec5c83b0f744614fa1e6b4142d0619c
   m_configObjects: {}

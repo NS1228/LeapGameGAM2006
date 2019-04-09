@@ -6,17 +6,20 @@ public class CupNamer : MonoBehaviour {
     public float upH = 3f;
     public Vector3 targetposition;
     public static int CheatCounter = 0;
+
   
 
 
     // Use this for initialization
     void Start () {
         targetposition = transform.position;
+        CheatCounter = 0;
     }
 	
 	// Update is called once per frame
 	void Update () {
         transform.position = Vector3.Lerp(transform.position, targetposition, Time.deltaTime);
+
     }
 
    // void OnCollisionEnter(Collision other)
@@ -30,8 +33,8 @@ public class CupNamer : MonoBehaviour {
     }
     public void Lift()
     {
-        if (CheatCounter == 0)
-        {
+        if(CheatCounter == 0)
+        { 
             targetposition = new Vector3
                 (
               transform.position.x,
@@ -39,8 +42,10 @@ public class CupNamer : MonoBehaviour {
               transform.position.z
                 );
             CheatCounter++;
+
         }
         
     }
+
    
 }
