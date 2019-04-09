@@ -13,6 +13,9 @@ public class Moving : MonoBehaviour
     public GameObject Cup2;
     public GameObject Cup3;
 
+    
+
+
     // Use this for initialization
     void Start()
     {
@@ -54,7 +57,7 @@ public class Moving : MonoBehaviour
 
         yield return new WaitForSeconds(2f);
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 10; i++)
         {
             Cup cup1 = cups[Random.Range(0, cups.Length)];
             Cup cup2 = cup1;

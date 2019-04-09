@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Bear_anims : MonoBehaviour
 {
-
     
+
+
     public GameObject Buttons;
     public GameObject startbutton;
 
@@ -30,7 +31,9 @@ public class Bear_anims : MonoBehaviour
 
         animswitch = false;
         buttonswitch = false;
+
        
+
     }
 
     // Update is called once per frame
