@@ -10,6 +10,10 @@ TagManager:
   - Ball
   - End
   - Floor
+  - Fire
+  - enemy
+  - bullet
+  - mine
   layers:
   - Default
   - TransparentFX
