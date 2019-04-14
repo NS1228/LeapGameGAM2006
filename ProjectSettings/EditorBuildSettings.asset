@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Dancegame.unity
+    guid: f6779b563a0770c4189c14513fd331cd
+  - enabled: 1
+    path: Assets/Scenes/Babygame.unity
+    guid: a9bfcefb2699d784ab4431ad8f32ccdc
   m_configObjects: {}
