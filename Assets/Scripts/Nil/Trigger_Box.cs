@@ -66,7 +66,7 @@ public class Trigger_Box : MonoBehaviour
 
         if (ammo <= 0)
         {
-            SceneManager.LoadScene("Babygame");
+            //SceneManager.LoadScene("Babygame");
         }
 
     }
