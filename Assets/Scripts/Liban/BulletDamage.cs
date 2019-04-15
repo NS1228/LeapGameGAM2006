@@ -32,7 +32,7 @@ public class BulletDamage : MonoBehaviour
 
             // print("hit");
 
-            CameraShaker ShakeShake = GameObject.Find("FirstPersonCharacter").GetComponent<CameraShaker>();
+            CameraShaker ShakeShake = GameObject.Find("Leap Camera").GetComponent<CameraShaker>();
 
             ShakeShake.enabled = true;
 

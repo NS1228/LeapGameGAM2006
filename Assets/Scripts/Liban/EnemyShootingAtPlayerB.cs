@@ -37,7 +37,7 @@ public class EnemyShootingAtPlayerB : MonoBehaviour
         ShotCounter -= Time.deltaTime;
 
 
-        if (transform.localScale.z < 0 && Target.transform.position.x > transform.position.x && Target.transform.position.x < transform.position.x + PlayerRange && ShotCounter < 0)
+        if (transform.localScale.x > 0 && Target.transform.position.x > transform.position.x && Target.transform.position.x < transform.position.x + PlayerRange && ShotCounter < 0)
 
         {
 
@@ -47,7 +47,7 @@ public class EnemyShootingAtPlayerB : MonoBehaviour
         }
 
 
-        if (transform.localScale.z > 0 && Target.transform.position.x < transform.position.x && Target.transform.position.x > transform.position.x - PlayerRange && ShotCounter < 0)
+        if (transform.localScale.x > 0 && Target.transform.position.x < transform.position.x && Target.transform.position.x > transform.position.x - PlayerRange && ShotCounter < 0)
 
         {
 

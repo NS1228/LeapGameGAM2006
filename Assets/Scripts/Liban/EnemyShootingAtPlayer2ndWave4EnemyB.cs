@@ -38,7 +38,7 @@ public class EnemyShootingAtPlayer2ndWave4EnemyB : MonoBehaviour
         ShotCounter -= Time.deltaTime;
 
 
-        if (transform.localScale.x < 0 && Target.transform.position.x > transform.position.x && Target.transform.position.x < transform.position.x + PlayerRange && ShotCounter < 0)
+        if (transform.localScale.x > 0 && Target.transform.position.x > transform.position.x && Target.transform.position.x < transform.position.x + PlayerRange && ShotCounter < 0)
 
         {
 
