@@ -21,7 +21,7 @@ public class Outzone_script : MonoBehaviour
     public void OnTriggerEnter(Collider other)
     {
 
-        if (other.gameObject.tag == "Bottle")
+        if (other.gameObject.tag == "EnemyBullet")
         {
             other.gameObject.GetComponent<Renderer>().material = Bluemat;
             
