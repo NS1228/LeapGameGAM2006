@@ -31,7 +31,7 @@ public class Timer : MonoBehaviour
     {
 
 
-        GameTimer = 299.0f;
+        GameTimer = 300.0f;
 
     }
 
@@ -150,7 +150,7 @@ public class Timer : MonoBehaviour
 
         {
 
-            SceneManager.LoadScene("Congrats Screen");
+            SceneManager.LoadScene("congratulations screen for doll game");
 
 
             Destroy(gameObject);

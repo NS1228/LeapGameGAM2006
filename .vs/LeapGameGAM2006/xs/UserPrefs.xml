@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{DA535E04-B9F5-C2AB-6C97-0B5C546D3685}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LeapMotion/Core/Scripts/LeapXRServiceProvider.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Liban/HealthScript.cs" Line="64" Column="59" />
+      <File FileName="Assets/Scripts/Liban/Timer.cs" Line="153" Column="73" />
+      <File FileName="Assets/LibanSceneManager.cs" Line="15" Column="10" />
+      <File FileName="Assets/LeapMotion/Core/Scripts/LeapXRServiceProvider.cs" Line="292" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

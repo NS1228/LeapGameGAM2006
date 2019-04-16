@@ -13,12 +13,12 @@ public class HealthScript : MonoBehaviour {
 
     public Slider HealthBar;
 
-    public Transform RespawnPoint;
 
 
 
 	// Use this for initialization
 	void Start () {
+
 
         CurrentHealth = StartingHealth;
 
@@ -51,19 +51,16 @@ public class HealthScript : MonoBehaviour {
 
 
 
-
-
     public void Death()
 
     {
 
-        transform.position = RespawnPoint.position;
 
         CurrentHealth = 100;
 
         HealthBar.value = CurrentHealth;
 
-        SceneManager.LoadScene("UI Retry Screen");
+        SceneManager.LoadScene("retry screen for doll game");
     
 
 

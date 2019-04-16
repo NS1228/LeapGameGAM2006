@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Babygame.unity
     guid: a9bfcefb2699d784ab4431ad8f32ccdc
+  - enabled: 1
+    path: Assets/Scenes/congratulations screen for doll game.unity
+    guid: 7d5a1b379ca054141b0d35358805e16d
+  - enabled: 1
+    path: Assets/Scenes/retry screen for doll game.unity
+    guid: eb58a5a38eff140399aad5b2837547b9
   m_configObjects: {}
