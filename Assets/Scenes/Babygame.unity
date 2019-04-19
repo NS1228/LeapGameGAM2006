@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4760,7 +4760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06fb1fcbb106ecb4689d7d86d9460d00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartingHealth: 100
+  StartingHealth: 1200
   CurrentHealth: 0
   HealthBar: {fileID: 2097529942}
 --- !u!4 &892776574 stripped

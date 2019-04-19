@@ -31,7 +31,7 @@ public class Timer : MonoBehaviour
     {
 
 
-        GameTimer = 300.0f;
+        GameTimer = 180.0f;
 
     }
 
@@ -69,7 +69,7 @@ public class Timer : MonoBehaviour
 
 
 
-        if (GameTimer <= 295.0f)
+        if (GameTimer <= 150.0f)
 
         {
 
@@ -100,7 +100,7 @@ public class Timer : MonoBehaviour
         }
 
 
-        if (GameTimer <= 276.0f)
+        if (GameTimer <= 125.0f)
 
         {
 
@@ -124,7 +124,7 @@ public class Timer : MonoBehaviour
 
 
 
-        if (GameTimer <= 270.0f)
+        if (GameTimer <= 95.0f)
 
 
         {
