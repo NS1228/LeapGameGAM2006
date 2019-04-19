@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fire
+  - EnemyBullet
+  - Bottle
+  - GREENZONE
   layers:
   - Default
   - TransparentFX

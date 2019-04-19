@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Trigger_Box : MonoBehaviour
 {
 
-    public int ammo = 100;
+    //public int ammo = 100;
     public static bool Canshoot;
     public static bool Changetbd;
 
@@ -17,9 +17,12 @@ public class Trigger_Box : MonoBehaviour
     public GameObject tbd2;
     public GameObject tbd3;
 
+    public GameObject gmm;
 
     public static bool timerx;
     public float timerfade = 0;
+
+    private bool addammo;
 
     // Start is called before the first frame update
     void Start()
@@ -27,14 +30,16 @@ public class Trigger_Box : MonoBehaviour
         Canshoot = false;
         Changetbd = false;
         timerx = false;
+        addammo = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Ammocounter();
-        print(ammo);
+        //Ammocounter();
+       // print(ammo);
         Objectdestroyer();
+        Greenammo();
 
     }
 
@@ -43,8 +48,13 @@ public class Trigger_Box : MonoBehaviour
 
         if (other.gameObject.tag == "EnemyBullet")
         {
+            //addammo = true;
             other.gameObject.GetComponent<Renderer>().material = Greenmat;
             //tbd = other.gameObject;
+
+          
+           
+            
             if (tbd3 == null)
             {
                 tbd3 = other.gameObject;
@@ -63,6 +73,15 @@ public class Trigger_Box : MonoBehaviour
                     }
                 }
             }
+
+            if (this.gameObject.tag == "GREENZONE")
+            {
+                gmm.GetComponent<Ammo_counter>().ammoinclip += 50;
+                Debug.Log("PLUS AMMO");
+                addammo = false;
+            }
+
+
 
 
         }
@@ -93,19 +112,7 @@ public class Trigger_Box : MonoBehaviour
 
 
     }
-    public void Ammocounter()
-    {
-        if (Canshoot == true)
-        {
-            ammo -= 1;
-        }
-
-        if (ammo <= 0)
-        {
-            SceneManager.LoadScene("Babygame");
-        }
-
-    }
+ 
 
     public void Objectdestroyer()
     {
@@ -117,13 +124,18 @@ public class Trigger_Box : MonoBehaviour
             // tbd.SetActive(false);
             // tbd2.SetActive(false);
             //tbd3.SetActive(false);
-
+            
             GameObject.Destroy(tbd);
             GameObject.Destroy(tbd2);
             GameObject.Destroy(tbd3);
         
 
         }
+    }
+
+    public void Greenammo ()
+    {
+        
     }
 
 
