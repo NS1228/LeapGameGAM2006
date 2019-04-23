@@ -16,6 +16,7 @@ public class CanvasTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         Player.SetActive(false);
         PauseCamera.SetActive(true);
         Cursor.visible = true;
