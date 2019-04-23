@@ -13,19 +13,29 @@ public class MineExplosion : MonoBehaviour
        
     }
 
-    void OnTriggerEnter(Collider other)
+    /* void OnTriggerEnter(Collider other)
+     {
+
+
+         if (other.tag == "bullet")
+         {
+
+             Instantiate(explosionEffect, transform.position, transform.rotation);
+             Instantiate(mineRadius);
+             Destroy(gameObject);
+
+         }
+     } */
+
+    public void Minetrigger()
     {
-
-
-        if (other.tag == "bullet")
-        {
-            
-            Instantiate(explosionEffect, transform.position, transform.rotation);
-            Instantiate(mineRadius);
-            Destroy(gameObject);
-
-        }
+        Instantiate(explosionEffect, transform.position, transform.rotation);
+        mineRadius.SetActive(true);
+        //Destroy(gameObject);
     }
+
+
+
 
 }
 

@@ -27,7 +27,7 @@ public class LoseScript : MonoBehaviour
     void RetrySceneTrigger()
     {
 
-        if (Mine1 == null && Mine2 == null && BarbieInRoom.activeInHierarchy == true)
+        if (Mine1 == null /*&& Mine2 == null*/ && BarbieInRoom.activeInHierarchy == true)
         {
             TimerCanvas.SetActive(false);
             Canvas.SetActive(true);
