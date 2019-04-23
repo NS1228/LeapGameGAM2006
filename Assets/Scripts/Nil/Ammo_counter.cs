@@ -2,18 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class Ammo_counter : MonoBehaviour
 {
 
     public float ammoinclip = 500;
-    // Start is called before the first frame update
+
+    public Slider AmmoBar;
+
+
+
     void Start()
     {
+
+        AmmoBar.value = ammoinclip;
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         print(ammoinclip);
@@ -24,11 +31,13 @@ public class Ammo_counter : MonoBehaviour
         {
         if(ammoinclip <= 0)
         {
-            SceneManager.LoadScene("Babygame");
+            SceneManager.LoadScene("retryammo");
         }
         if (Trigger_Box.Canshoot)
         {
             ammoinclip -= 1;
+            AmmoBar.value = ammoinclip;
+
         }
     }
 
