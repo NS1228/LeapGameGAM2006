@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Dance_Sets : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class Dance_Sets : MonoBehaviour
     void Start()
     {
         SETS = 1;
-        ROUNDS = 1;
+        ROUNDS = 3;
 
     }
 
@@ -65,7 +66,8 @@ public class Dance_Sets : MonoBehaviour
             
             if (SETS == 10)
             {
-                print("YOU WIN!");             
+                print("YOU WIN!");
+                SceneManager.LoadScene("Dancegamewin");
             }
         }
     }

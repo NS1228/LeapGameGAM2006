@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/retryammo.unity
     guid: bed8fcc86a53e744abdb73da2240c6a2
+  - enabled: 1
+    path: Assets/Scenes/Dancegamewin.unity
+    guid: c1e27050c778a7d4c9b89c0c0dff380c
   m_configObjects: {}

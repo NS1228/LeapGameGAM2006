@@ -43,6 +43,8 @@ public class BulletDamage : MonoBehaviour
 
             Destroy(gameObject);
 
+            print ("hello");
+
 
         }
 

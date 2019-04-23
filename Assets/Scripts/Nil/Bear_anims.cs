@@ -65,7 +65,7 @@ public class Bear_anims : MonoBehaviour
                     anim.clip = lvl2;
                     anim.Play();
                     animswitch = false;
-                    Timingone = Time.time + 10;
+                    Timingone = Time.time + 11;
                     buttonswitch = true;
 
 
@@ -78,7 +78,7 @@ public class Bear_anims : MonoBehaviour
                     anim.clip = lvl3;
                     anim.Play();
                     animswitch = false;
-                    Timingone = Time.time + 15;
+                    Timingone = Time.time + 16;
                     buttonswitch = true;
 
 
