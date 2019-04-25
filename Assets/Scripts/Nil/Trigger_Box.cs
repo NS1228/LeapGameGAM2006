@@ -76,7 +76,7 @@ public class Trigger_Box : MonoBehaviour
 
             if (this.gameObject.tag == "GREENZONE")
             {
-                gmm.GetComponent<Ammo_counter>().ammoinclip += 50;
+                gmm.GetComponent<Ammo_counter>().ammoinclip += 25;
                 Debug.Log("PLUS AMMO");
                 addammo = false;
             }

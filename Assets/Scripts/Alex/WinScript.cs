@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WinScript : MonoBehaviour
 {
@@ -32,7 +33,7 @@ public class WinScript : MonoBehaviour
     {
         if (barbie1 == null && barbie2 == null && barbie3 == null && barbie4 == null && barbie5 == null && barbie6 == null)
         {
-            WinCanvas.SetActive(true);
+            SceneManager.LoadScene("BarbieWin");
         }
     }
 }

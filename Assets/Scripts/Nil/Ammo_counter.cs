@@ -19,6 +19,10 @@ public class Ammo_counter : MonoBehaviour
 
         AmmoBar.value = ammoinclip;
         
+        if(ammoinclip >= 500)
+        {
+            ammoinclip = 500;
+        }
     }
 
     void Update()

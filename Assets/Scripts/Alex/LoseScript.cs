@@ -29,8 +29,7 @@ public class LoseScript : MonoBehaviour
 
         if (Mine1 == null /*&& Mine2 == null*/ && BarbieInRoom.activeInHierarchy == true)
         {
-            TimerCanvas.SetActive(false);
-            Canvas.SetActive(true);
+            SceneManager.LoadScene("BarbieLose");
 
         }
 

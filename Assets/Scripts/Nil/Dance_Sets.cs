@@ -20,7 +20,7 @@ public class Dance_Sets : MonoBehaviour
     void Start()
     {
         SETS = 1;
-        ROUNDS = 3;
+        ROUNDS = 1;
 
     }
 

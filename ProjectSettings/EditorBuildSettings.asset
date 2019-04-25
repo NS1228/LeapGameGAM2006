@@ -35,4 +35,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dancegamewin.unity
     guid: c1e27050c778a7d4c9b89c0c0dff380c
+  - enabled: 1
+    path: Assets/Scenes/Barbiedolls.unity
+    guid: 4f5c67aa50843294e837f820254e01e3
+  - enabled: 1
+    path: Assets/Scenes/BarbieWin.unity
+    guid: 4f246c2a1d25cd044b923ae04f73574b
+  - enabled: 1
+    path: Assets/Scenes/BarbieLose.unity
+    guid: 5efc9ca558f788442ba14ccd014436ce
   m_configObjects: {}

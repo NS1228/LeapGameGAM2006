@@ -2241,7 +2241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ed3ea908c8c2594cb6474e85d77f06c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GapInBetweenShot: 1.9
+  GapInBetweenShot: 0.9
   PlayerRange: 400
   Target: {fileID: 718017236}
   EnemyBullet: {fileID: 704471612}
@@ -2258,7 +2258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ef40c706c5a194fa6a541b37fc03ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GapInBetweenShot: 2.6
+  GapInBetweenShot: 1
   PlayerRange: 400
   Target: {fileID: 718017236}
   EnemyBullet: {fileID: 704471612}
@@ -4673,7 +4673,7 @@ RectTransform:
   m_GameObject: {fileID: 844216508}
   m_LocalRotation: {x: -0, y: -0.70984554, z: -0, w: 0.7043574}
   m_LocalPosition: {x: 0, y: 0, z: 64.4}
-  m_LocalScale: {x: 0.07100148, y: 0.07100148, z: 0.07100148}
+  m_LocalScale: {x: 0.07100148, y: 0.06183377, z: 0.07100148}
   m_Children:
   - {fileID: 622444903}
   - {fileID: 1875928505}
@@ -4686,7 +4686,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90.44501, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -63.6, y: 5.3}
+  m_AnchoredPosition: {x: -63.6, y: 5.3021}
   m_SizeDelta: {x: 800, y: 358.47458}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &849317351 stripped

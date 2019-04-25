@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameTime : MonoBehaviour
 {
@@ -28,14 +29,8 @@ public class GameTime : MonoBehaviour
 
         if (seconds == 0)
         {
-            TimerCanvas.SetActive(false);
-            //Player.SetActive(false);
-            //PauseCamera.SetActive(true);
-            //Cursor.visible = true;
-            //Cursor.lockState = CursorLockMode.None;
-            //Time.timeScale = 0;
-            Canvas.SetActive(true);
-            
+            SceneManager.LoadScene("BarbieLose");
+
 
         }
     }
