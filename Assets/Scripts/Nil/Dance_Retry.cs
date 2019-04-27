@@ -24,6 +24,6 @@ public class Dance_Retry : MonoBehaviour
 
     public void Mainmenufromdance()
     {
-        SceneManager.LoadScene("test");
+        SceneManager.LoadScene("PickScreen");
     }
 }

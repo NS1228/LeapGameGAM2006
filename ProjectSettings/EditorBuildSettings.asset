@@ -12,6 +12,45 @@ EditorBuildSettings:
     path: Assets/Scenes/test.unity
     guid: 2599f8973fe722d45876345479794317
   - enabled: 1
+    path: Assets/Scenes/Pickscreen.unity
+    guid: 8447d50debb6a514a8a5461724806684
+  - enabled: 1
     path: Assets/Scenes/Babygame.unity
     guid: a9bfcefb2699d784ab4431ad8f32ccdc
+  - enabled: 1
+    path: Assets/Scenes/Cupnball.unity
+    guid: 4ec5c83b0f744614fa1e6b4142d0619c
+  - enabled: 1
+    path: Assets/Scenes/Barbiedolls.unity
+    guid: 4f5c67aa50843294e837f820254e01e3
+  - enabled: 1
+    path: Assets/Scenes/Dancegame.unity
+    guid: f6779b563a0770c4189c14513fd331cd
+  - enabled: 1
+    path: Assets/Scenes/BarbieLose.unity
+    guid: 5efc9ca558f788442ba14ccd014436ce
+  - enabled: 1
+    path: Assets/Scenes/BarbieWin.unity
+    guid: 4f246c2a1d25cd044b923ae04f73574b
+  - enabled: 1
+    path: Assets/Scenes/congratulations screen for doll game.unity
+    guid: 7d5a1b379ca054141b0d35358805e16d
+  - enabled: 1
+    path: Assets/Scenes/CupLoss.unity
+    guid: 596daefd7d934c64f85aa6618c362b5c
+  - enabled: 1
+    path: Assets/Scenes/CupWin.unity
+    guid: 501449bb240174146a8fa49e0bae96a1
+  - enabled: 1
+    path: Assets/Scenes/Dancegameretryscene.unity
+    guid: b827e06fdcac4fe42905a8e5c6cd08b9
+  - enabled: 1
+    path: Assets/Scenes/Dancegamewin.unity
+    guid: c1e27050c778a7d4c9b89c0c0dff380c
+  - enabled: 1
+    path: Assets/Scenes/retry screen for doll game.unity
+    guid: eb58a5a38eff140399aad5b2837547b9
+  - enabled: 1
+    path: Assets/Scenes/retryammo.unity
+    guid: bed8fcc86a53e744abdb73da2240c6a2
   m_configObjects: {}

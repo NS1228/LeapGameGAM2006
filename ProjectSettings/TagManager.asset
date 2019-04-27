@@ -8,6 +8,11 @@ TagManager:
   - EnemyBullet
   - Bottle
   - GREENZONE
+  - Boxxy
+  - DG
+  - CB
+  - BA
+  - BM
   layers:
   - Default
   - TransparentFX
